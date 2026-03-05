@@ -2,7 +2,7 @@
 
 Nexus is an intelligent orchestration layer built to stop wasting high-compute resources on low-complexity tasks. By analyzing every prompt before it hits an LLM, Nexus routes queries to the most efficient model tier—saving cost, reducing latency, and cutting down on the environmental footprint of your AI operations.
 
-## 🌌 What’s Inside
+## What’s Inside
 
 - **Smart Tier Routing**: Instead of one-size-fits-all, Nexus uses a mix of ML classification and heuristics to pick between **LITE**, **MID**, or **PRO** tiers.
 - **Two-Layer Memory**:
@@ -50,6 +50,6 @@ GEMINI_API_KEY=your_key_here
 ### 4. Launch
 
 ```bash
-streamlit run Home.py
+Python -m streamlit run Home.py
 
 ```
