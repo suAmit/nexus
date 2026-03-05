@@ -31,12 +31,9 @@ Nexus is built with Python and Streamlit, keeping the logic modular and easy to 
 
 ### 2. Quick Setup
 
-```bash
-# Get the code
-git clone <your-repo-url>
-cd nexus
+Install the essentials
 
-# Install the essentials
+```bash
 pip install -r requirements.txt
 
 ```
@@ -56,7 +53,3 @@ GEMINI_API_KEY=your_key_here
 streamlit run Home.py
 
 ```
-
-## 📊 Monitoring & Safety
-
-You can switch to the **Dashboard** page to see your efficiency metrics in real-time. Nexus also runs a **Response Validator** on every MID/PRO response to ensure the output is actually helpful and technically sound before you ever see it.
