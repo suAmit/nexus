@@ -1,0 +1,20 @@
+# Web Interface
+streamlit
+
+# Data Handling & Analytics
+pandas
+sqlite3
+plotly
+
+# AI & LLM Integration
+litellm
+python-dotenv
+
+# Vector Database
+chromadb
+
+# Machine Learning & Embeddings
+sentence-transformers
+joblib
+numpy
+scikit-learn
